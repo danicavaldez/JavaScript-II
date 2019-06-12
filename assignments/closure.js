@@ -1,6 +1,17 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function introduction() {
+  let myName = "Danica"
+  console.log ("Hello, my name is " + myName + ".");
 
+  function myHome() {
+    let myCity = "live Oak"
+    console.log("My name is " + myName + " and I live in " + myCity + ", Ca." )
+  }
+myHome();
+}
+
+introduction();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
